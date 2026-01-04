@@ -37,7 +37,7 @@ Download the latest release from the [Releases](../../releases) page.
 
 ```bash
 # Clone the repository
-git clone https://github.com/serdar-alb/ScreenCapture.git
+git clone https://github.com/sadopc/ScreenCapture.git
 cd ScreenCapture
 
 # Open in Xcode
