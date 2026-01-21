@@ -1,8 +1,0 @@
-blank_issues_enabled: true
-contact_links:
-  - name: Documentation
-    url: https://github.com/sadopc/ScreenCapture/tree/main/docs
-    about: Check the documentation before opening an issue
-  - name: Discussions
-    url: https://github.com/sadopc/ScreenCapture/discussions
-    about: Ask questions and discuss ideas
